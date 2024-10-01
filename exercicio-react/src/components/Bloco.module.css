@@ -1,0 +1,23 @@
+.bloco1{
+    width: 40%;
+    height: 25vh;
+    background-color: brown;
+}
+
+.bloco2{
+    width: 15%;
+    height: 25vh;
+    background-color: rgb(215, 222, 23);
+}
+
+.bloco3{
+    width: 40%;
+    height: 25vh;
+    background-color: rgb(56, 222, 100);
+}
+
+.bloco4{
+    width: 40%;
+    height: 25vh;
+    background-color: rgb(23, 82, 39);
+}
