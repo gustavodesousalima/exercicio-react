@@ -1,10 +1,10 @@
 import Styled from './Footer.module.css';
 
-function Footer() {
+function Footer(props) {
    return(
     <>
     <div className={Styled.Footer}>
-
+      {props.children}
     </div>
     </>
    )

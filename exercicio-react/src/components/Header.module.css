@@ -3,7 +3,23 @@
     flex-direction: column;
     width: 80%;
     height: 25vh;
-    background-color: aqua;
-    justify-content: center;
-    align-items: center;
+    background-image: url(../assets/imgs/guitarras_header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: flex-end;
+    align-items: end;
+    padding: 20px;
+}
+
+nav{
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(112, 26, 26);
+    font-size: 1rem;
+    margin: 0 10px;
 }
