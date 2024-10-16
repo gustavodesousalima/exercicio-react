@@ -9,19 +9,19 @@ function Instrumentos() {
     <section className={StyledSection.Section2}>
       <Bloco className={StyledBloco.bloco2}>
         <img src={ImageViolao} alt="Guitarrinha" />
-        <p>Lorem ipsum dolor sit amet consectetur <span>R$100,00</span></p>
+        <p>Violão Clássico Acústico <span>R$100,00</span></p>
       </Bloco>
       <Bloco className={StyledBloco.bloco2}>
         <img src={ImageViolao} alt="Guitarrinha" />
-        <p>Lorem ipsum dolor sit amet consectetur <span>R$100,00</span></p>
+        <p>Violão Clássico Acústico <span>R$100,00</span></p>
       </Bloco>
       <Bloco className={StyledBloco.bloco2}>
         <img src={ImageViolao} alt="Guitarrinha" />
-        <p>Lorem ipsum dolor sit amet consectetur <span>R$100,00</span></p>
+        <p>Violão Clássico Acústico <span>R$100,00</span></p>
       </Bloco>
       <Bloco className={StyledBloco.bloco2}>
         <img src={ImageViolao} alt="Guitarrinha" />
-        <p>Lorem ipsum dolor sit amet consectetur <span>R$100,00</span></p>
+        <p>Violão Clássico Acústico <span>R$100,00</span></p>
       </Bloco>
     </section>
   );

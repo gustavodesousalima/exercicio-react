@@ -7,7 +7,7 @@ function Home() {
   return (
     <section className={StyledSection.home}>
       <Bloco className={StyledBloco.bloco_home}> 
-        <h1>Lorem ipsum dolor sit amet.</h1>
+        <h1>Acordes perfeitos para cada sonho</h1>
       <Bloco className={StyledBloco.bloco1_2_home} />
       </Bloco>
     </section>

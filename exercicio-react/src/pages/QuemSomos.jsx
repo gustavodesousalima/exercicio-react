@@ -7,8 +7,8 @@ function QuemSomos() {
   return (
     <section className={StyledSection.Section1}>
       <Bloco className={StyledBloco.bloco1}> 
-        <h1>Lorem ipsum dolor sit amet.</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, odio! Odit ex quisquam corporis eos voluptas. Repudiandae enim atque itaque!Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <h1>Sobre Nós</h1>
+        <p>Bem-vindo à nossa loja de instrumentos musicais, onde a paixão pela música se encontra com a qualidade e a diversidade! Oferecemos uma ampla seleção de instrumentos, desde guitarras e teclados até percussão e acessórios, tudo escolhido com carinho para atender músicos de todos os níveis. Nossa equipe está pronta para ajudar você a encontrar o instrumento perfeito e a inspirar sua jornada musical. Venha fazer parte da nossa comunidade e descubra o som que toca seu coração!</p>
       </Bloco>
       <Bloco className={StyledBloco.bloco1_2} />
     </section>

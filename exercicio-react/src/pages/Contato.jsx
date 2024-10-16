@@ -18,7 +18,7 @@ function Contato() {
         <button>Enviar</button>
       </form>
       <Bloco className={StyledBloco.bloco4}>
-        <h1>Lorem ipsum dolor sit amet.</h1>
+        <h1>Redes Sociais</h1>
         <Bloco className={StyledBloco.blocoredes}>
           <img src={Whats} alt="Whatsapp" />
           <img src={Insta} alt="Instagram" />

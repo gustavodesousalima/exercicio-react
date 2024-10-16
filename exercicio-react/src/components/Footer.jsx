@@ -18,8 +18,8 @@ function Footer(props) {
             <Link to="/contato">Contato</Link>
           </div>
           <div className={Styled.FooterContact}>
-            <p>Email: gustavdesousalima@gmail.com</p>
-            <p>Telefone: (11) 972069406</p>
+            <p>gustavdesousalima@gmail.com</p>
+            <p>(11) 972069406</p>
           </div>
           <div className={Styled.FooterSocial}>
             <a href="https://www.instagram.com" target="_blank">
