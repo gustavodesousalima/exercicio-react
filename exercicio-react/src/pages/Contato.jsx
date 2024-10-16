@@ -1,12 +1,12 @@
 import React from 'react';
-import Bloco from '../Bloco';
-import StyledSection from '../Section.module.css';
-import StyledBloco from '../bloco.module.css';
-import Insta from '../../assets/imgs/insta.png';
-import Whats from '../../assets/imgs/whats.png';
-import Face from '../../assets/imgs/face.png';
+import Bloco from '../components/Bloco';
+import StyledSection from '../components/Section.module.css';
+import StyledBloco from '../components/bloco.module.css';
+import Insta from '../assets/imgs/insta.png';
+import Whats from '../assets/imgs/whats.png';
+import Face from '../assets/imgs/face.png';
 
-function Section4() {
+function Contato() {
   return (
     <section className={StyledSection.Section4}>
       <form action="">
@@ -29,4 +29,4 @@ function Section4() {
   );
 }
 
-export default Section4;
+export default Contato;

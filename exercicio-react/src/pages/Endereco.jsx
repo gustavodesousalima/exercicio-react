@@ -1,9 +1,9 @@
 import React from 'react';
-import Bloco from '../Bloco';
-import StyledSection from '../Section.module.css';
-import StyledBloco from '../bloco.module.css';
+import Bloco from '../components/Bloco';
+import StyledSection from '../components/Section.module.css';
+import StyledBloco from '../components/bloco.module.css';
 
-function Section3() {
+function Endereco() {
   return (
     <section className={StyledSection.Section3}>
       <Bloco className={StyledBloco.bloco3}>
@@ -17,4 +17,4 @@ function Section3() {
   );
 }
 
-export default Section3;
+export default Endereco;

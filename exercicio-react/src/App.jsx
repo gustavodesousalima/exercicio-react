@@ -1,10 +1,11 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { useState } from 'react';
 import Header from './components/Header';
-import Section1 from './components/pages/Section1';
-import Section2 from './components/pages/Section2';
-import Section3 from './components/pages/Section3';
-import Section4 from './components/pages/Section4';
+import Home from './pages/Home';
+import Section1 from './pages/QuemSomos';
+import Section2 from './pages/Instrumentos';
+import Section3 from './pages/Endereco';
+import Section4 from './pages/Contato';
 import Footer from './components/Footer';
 import Styled from '../src/components/Header.module.css';
 import './App.css';
@@ -16,7 +17,7 @@ function App() {
     <Router>
       <Header className={Styled.header} />
       <Routes>
-        <Route path="/" element={<Section1 />} />
+        <Route path="/" element={<Home />} />
         <Route path="/quem-somos" element={<Section1 />} />
         <Route path="/instrumentos" element={<Section2 />} />
         <Route path="/endereco" element={<Section3 />} />

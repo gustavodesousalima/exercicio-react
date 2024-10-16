@@ -14,4 +14,8 @@
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+  background-image: url(./assets/imgs/guitarras_background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

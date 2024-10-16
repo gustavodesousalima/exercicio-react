@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Styled from './Footer.module.css';
 import Insta from '../assets/imgs/insta.png';
 import Whats from '../assets/imgs/whats.png';
@@ -10,24 +11,24 @@ function Footer(props) {
       <div className={Styled.Footer}>
         <div className={Styled.FooterContent}>
           <div className={Styled.FooterLinks}>
-            <a href="/">Home</a>
-            <a href="/quem-somos">Quem Somos</a>
-            <a href="/instrumentos">Instrumentos</a>
-            <a href="/endereco">Endereço</a>
-            <a href="/contato">Contato</a>
+            <Link to="/">Home</Link>
+            <Link to="/quem-somos">Quem Somos</Link>
+            <Link to="/instrumentos">Instrumentos</Link>
+            <Link to="/endereco">Endereço</Link>
+            <Link to="/contato">Contato</Link>
           </div>
           <div className={Styled.FooterContact}>
             <p>Email: gustavdesousalima@gmail.com</p>
             <p>Telefone: (11) 972069406</p>
           </div>
           <div className={Styled.FooterSocial}>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com" target="_blank">
               <img src={Insta} alt="Instagram" />
             </a>
-            <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.whatsapp.com" target="_blank">
               <img src={Whats} alt="WhatsApp" />
             </a>
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com" target="_blank">
               <img src={Face} alt="Facebook" />
             </a>
           </div>
