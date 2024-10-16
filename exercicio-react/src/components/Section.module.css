@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: row;
     width: 80%;
-    height: 35vh;
-    background-color: rgb(133, 20, 20);
+    height: 50vh;
+    background-color: #851414;
     text-align: center;
     justify-content: space-around;
     align-items: center;
@@ -13,8 +13,8 @@
     display: flex;
     flex-direction: row;
     width: 80%;
-    height: 35vh;
-    background-color: rgb(255, 255, 255);
+    height: 50vh;
+    background-color: #ffffff;
     text-align: center;
     justify-content: space-around;
     align-items: center;
@@ -24,8 +24,8 @@
     display: flex;
     flex-direction: row;
     width: 80%;
-    height: 35vh;
-    background-color: rgb(50, 43, 182);
+    height: 50vh;
+    background-color: #851414;
     text-align: center;
     justify-content: space-around;
     align-items: center;
@@ -35,9 +35,47 @@
     display: flex;
     flex-direction: row;
     width: 80%;
-    height: 35vh;
-    background-color: rgb(255, 255, 255);
+    height: 50vh;
+    background-color: #ffffff;
     text-align: center;
     justify-content: space-around;
     align-items: center;
 }
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 35vh;
+    gap: 10px;
+    text-align: start;
+    color: black;
+  }
+  
+  textarea{
+    width: 60%;
+    height: 30vh;
+  }
+  
+  .bloco_redes{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  img{
+    width: 100%;
+    height: 12vh;
+  }
+  
+  span{
+    color: red;
+  }
+
+  input{
+    padding: 8px;
+  }
+
+  form button{
+    padding: 10px;
+  }

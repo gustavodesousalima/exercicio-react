@@ -1,4 +1,4 @@
-.Footer{
+.Footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,4 +6,50 @@
     width: 80%;
     height: 25vh;
     background-color: #000;
+    color: #f0f8ff;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.FooterContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    gap: 10px;
+}
+
+.FooterLinks {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.FooterLinks a {
+    color: #f0f8ff;
+    text-decoration: none;
+}
+
+.FooterLinks a:hover {
+    text-decoration: underline;
+}
+
+.FooterContact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.FooterSocial {
+    display: flex;
+    gap: 10px;
+}
+
+.FooterSocial img {
+    width: 24px;
+    height: 24px;
 }

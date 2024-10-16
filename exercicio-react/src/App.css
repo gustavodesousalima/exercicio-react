@@ -15,33 +15,3 @@
   align-items: center;
   flex-direction: column;
 }
-
-img{
-  width: 100%;
-  height: 12vh;
-}
-
-span{
-  color: red;
-}
-
-form{
-  display: flex;
-  flex-direction: column;
-  width: 40%;
-  height: 30vh;
-  gap: 5px;
-  text-align: start;
-  color: black;
-}
-
-textarea{
-  width: 60%;
-  height: 30vh;
-}
-
-.bloco_redes{
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-}

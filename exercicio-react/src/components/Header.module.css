@@ -13,13 +13,13 @@
 }
 
 nav{
-    background-color: aliceblue;
+    background-color: #f0f8ff;
     padding: 10px;
 }
 
 a{
     text-decoration: none;
-    color: rgb(112, 26, 26);
+    color: #701a1a;
     font-size: 1rem;
     margin: 0 10px;
 }

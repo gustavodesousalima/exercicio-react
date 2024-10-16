@@ -1,13 +1,21 @@
 .bloco1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     width: 40%;
-    height: 25vh;
-    background-color: rgb(236, 130, 130);
+    height: 35vh;
+    background-color: #ec8282;
     padding: 5px;
 }
 
 .bloco1_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
     width: 40%;
-    height: 25vh;
+    height: 35vh;
     background-image: url(../assets/imgs/loja.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -15,34 +23,48 @@
 }
 
 .bloco2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
     width: 15%;
-    height: 25vh;
-    background-color: rgb(255, 255, 252);
+    height: 35vh;
+    background-color: #fffffc;
     color: black;
     font-weight: bold;
 }
 
 .bloco3{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     width: 40%;
-    height: 25vh;
-    background-color: rgb(56, 222, 100);
+    height: 35vh;
+    background-color: #38de64;
 }
 
 .bloco4{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     width: 40%;
-    height: 25vh;
-    background-color: rgb(255, 255, 255);
-    color: rgb(6, 56, 127);
+    height: 35vh;
+    background-color: #ffffff;
+    color: #06387f;
 }
 
 .blocoredes{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     width: 100%;
-    height: 25vh;
-    background-color: rgb(255, 255, 255);
+    height: 35vh;
+    background-color: #fff;
     gap: 10px;
 }
 
@@ -57,7 +79,7 @@
     align-items: center;
     flex-direction: row;
     width: 100%;
-    height: 25vh;
+    height: 35vh;
     background: none;
     gap: 10px;
 }
